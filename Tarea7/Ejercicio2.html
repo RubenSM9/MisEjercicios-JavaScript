@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        @import url("Ejercicio2.css");
+    </style>
+</head>
+<body>
+   <div class="Todo">
+    <h2><strong>Calculadora</strong></h2>
+
+   <div class="Recuadros">
+        <p>Inserta primer número
+        <input type="number" id="Primero" value=""></p> <!-- Cambiado a id="Primero" -->
+        <p>Inserta segundo número 
+        <input type="number" id="Segundo" value=""></p> <!-- Cambiado a id="Segundo" -->
+   </div>
+
+   <div class="botones">
+        <input type="button" name="Suma" value="+" onclick="Suma()" />
+        <input type="button" name="Resta" value="-" onclick="Resta()" />
+        <input type="button" name="Multiplicacion" value="x" onclick="Multiplicacion()" />
+        <input type="button" name="Division" value="/" onclick="Division()" /><br>
+    </div>
+    
+    <div class="Area">
+        <textarea id="Resultado" readonly></textarea>
+    </div>
+</div>
+
+    <script src="Ejercicio2.js"></script>
+</body>
+</html>

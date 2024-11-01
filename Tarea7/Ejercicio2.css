@@ -1,0 +1,51 @@
+.Todo {
+    background-color: aquamarine;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto; /* Centrar la calculadora en la página */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.Recuadros {
+    text-align: center;
+}
+
+.botones {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; /* Centrar los botones horizontalmente */
+    gap: 15px; /* Espacio entre los botones */
+}
+
+input[type="button"] {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto suave en hover */
+}
+
+input[type="button"]:hover {
+    background-color: #e0e0e0;
+}
+
+textarea {
+    display: block; /* Asegura que esté en bloque */
+    margin: 20px auto; /* Centrar el área de texto */
+    width: 90%;
+    height: 75px;
+    border: 2px solid black;
+    background-color: #f9f9f9; /* Fondo claro */
+    font-size: 20px;
+    text-align: center;
+    resize: none; /* Deshabilitar el redimensionamiento */
+}
